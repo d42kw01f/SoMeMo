@@ -19,7 +19,7 @@ except Exception as ex:
     print(ex)
 
 def scroll_down(driver,pageNum):
-    print('\n>>>>>>>>>>>>>>>>>> scrolling down to the page # ', pageNum)
+    print('\n>>>>>>>>>>>>>>>>>>>>> scrolling down to the page # ', pageNum)
     driver.execute_script("window.scrollTo(0, document.body.scrollHeight);")
 
 def __scroll_down_page(driver, speed, current_scroll_position):
